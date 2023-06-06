@@ -1,0 +1,23 @@
+{
+
+    "manifest_version": 2,
+    "name": "Gradescope+",
+    "version": "0.0.1",
+    "minimum_chrome_version": "60",
+    
+    "description": "A collection of modules that improve your Gradescope experience",
+    "version_name": "0.0.1",
+  
+    "content_scripts": [
+      {
+        "matches": ["https://www.gradescope.com/*"],
+        "js": ["dist/index.js"],
+        "css": ["dist/style.css"]
+      }
+     ],
+  
+    "permissions": [
+      "storage"
+    ]
+
+  }

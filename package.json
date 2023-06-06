@@ -1,0 +1,16 @@
+{
+  "name": "gradescope-plus",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "dev": "parcel watch src/index.ts src/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.0.0-rc.0"
+  },
+  "dependencies": {
+    "@types/chrome": "^0.0.157"
+  }
+}

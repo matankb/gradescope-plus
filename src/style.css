@@ -1,0 +1,17 @@
+.gradescope-plus__new-grades {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  --size: 20px;
+  width: var(--size);
+  height: var(--size);
+  border-radius: 50%;
+  
+  background: #19574e;
+  color: white;
+}
